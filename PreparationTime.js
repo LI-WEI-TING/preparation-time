@@ -13,7 +13,7 @@ axios.post('https://escape-room.hexschool.io/api/user/signup',ABC)
     console.log(error);
     });*/
 
-
+/*
     let obj = 
         {Company_ID: "EightWay"}
       
@@ -26,15 +26,15 @@ axios.post('http://192.168.1.237:8022/QuickerOrder/CateList?Company_ID=EightWay'
  })
 .catch(function (error) {
   console.log(error);
-  });
+  });*/
 
 
- /* axios({
+ axios({
     method: 'post',
     baseURL: 'http://192.168.1.237:8022/QuickerOrder/CateList?Company_ID=EightWay','Content-Type':'application/json',
   })
     .then((result) => { console.log(result.data) })
-    .catch((err) => { console.error(err) })*/  
+    .catch((err) => { console.error(err) })
 
 
 
