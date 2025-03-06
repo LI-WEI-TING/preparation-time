@@ -19,7 +19,7 @@ axios.post('https://escape-room.hexschool.io/api/user/signup',ABC)
       
 
       
-axios.post('https://192.168.1.237:8022/QuickerOrder/CateList?Company_ID=EightWay') 
+axios.post('http://192.168.1.237:8022/QuickerOrder/CateList?Company_ID=EightWay') 
 
 .then(function (response) {
  console.log(response);
